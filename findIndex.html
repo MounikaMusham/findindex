@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const numbers = [45,23,20,1,35,60,50,25];
+        document.getElementById("demo").innerHTML=numbers.findIndex(mySum);
+
+        function mySum(compare){
+            return compare < 30;
+        }
+    </script>
+</body>
+</html>
